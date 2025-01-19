@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+int sum_at_odd(int arr[], int n)
+{
+    int sum = 0;
+    for (int i = 0; i < n; i++)
+    {
+        if (i % 2 != 0)
+        {
+            sum += arr[i];
+        }
+    }
+    return sum;
+}
+int sum_at_even(int arr[], int n)
+{
+    int sum = 0;
+    for (int i = 0; i < n; i++)
+    {
+        if (i % 2 == 0)
+        {
+            sum += arr[i];
+        }
+    }
+    return sum;
+}
+int main()
+{
+    int arr[] = {1, 2, 3, 4, 5};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    cout << sum_at_even(arr, n) - sum_at_odd(arr, n);
+    return 0;
+    return 0;
+}
