@@ -9,8 +9,8 @@ int main()
     cout << a;
     // ternary operator
 
-    int m = 5;
+    int a = 5;
     int b = 6;
-    (m > b) ? cout << "kaise ho" : cout << "chuha";
+    (a > b) ? cout << "kaise ho" : cout << "chuha";
     return 0;
 }
