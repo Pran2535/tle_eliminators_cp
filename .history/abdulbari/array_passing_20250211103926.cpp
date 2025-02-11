@@ -19,7 +19,6 @@ int main()
 {
     int arr[]{1, 2, 3, 4, 5};
     fun(arr, 5);
-    cout << endl;
     fun(arr, sizeof(arr) / sizeof(arr[0]));
     return 0;
 }
