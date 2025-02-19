@@ -37,7 +37,7 @@ int main()
     {
         cout << crr[i] << " ";
     }
-    char name[10] = {'j', 'o', 'h', 'n'};
+    char name[10] = {'j', 'o', 'h', 'n', '\0'};
     cout << name << endl;
 
     return 0;
