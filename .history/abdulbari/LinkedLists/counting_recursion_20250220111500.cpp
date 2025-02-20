@@ -61,6 +61,6 @@ int main()
     int arr[] = {1, 2, 3, 4, 5};
     node *head = NULL;
     createLinkedList(arr, 5, head);
-    cout << count(head);
+    cout << count(0, head);
     return 0;
 }
