@@ -18,7 +18,6 @@ node *deleteathead(node *head)
     p->next = head->next;
     head = head->next;
     delete q;
-    return head;
 }
 // Inserts a new node at the beginning of a circular linked list
 node *insertatstart(node *head, int data)
